@@ -1,0 +1,385 @@
+body {
+    width: 100%;
+    margin: 0px;
+    padding: 0px;
+    font-family: 'Anonymous Pro', monospace;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+.heder {
+    background-color: #E0EBE8;
+    height: 150px;
+}
+
+.img {
+    position: absolute;
+    top: 50px;
+    left: 200px;
+}
+
+.menu {
+
+    position: absolute;
+    top: 90px;
+    left: 600px;
+    font-size: 30px;
+    word-spacing: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: #45b29a;
+}
+
+a:hover {
+    color: #545454;
+    cursor: pointer;
+}
+
+.poster {
+    position: absolute;
+    display: flex;
+    background-color: #E0EBE8;
+    height: 375px;
+    width: 100%;
+}
+
+.work {
+    position: absolute;
+    justify-content: center;
+    left: 250px;
+    top: 75px;
+    background-color: #E0EBE8;
+}
+
+.flag1 {
+    position: absolute;
+    top: 225px;
+    left: 325px;
+}
+
+.flag2 {
+    position: absolute;
+    top: 225px;
+    left: 1000px;
+}
+
+.cloud1 {
+    position: absolute;
+    top: 250px;
+    left: 150px;
+}
+
+.cloud2 {
+    position: absolute;
+    top: 158px;
+    left: 1150px;
+}
+
+.about {
+    display: flex;
+
+}
+
+.pencil {
+    /* top: 150px; */
+    position: absolute;
+    flex-direction: row;
+    left: 650px;
+    top: 650px;
+}
+
+.hed1 {
+    position: absolute;
+    top: 775px;
+    text-align: center;
+    left: 590px;
+    font-size: 32px;
+    font-weight: 100;
+    color: #45b29a;
+}
+
+.p1 {
+    position: absolute;
+    top: 845px;
+    left: 475px;
+    font-size: 23px;
+    font-weight: 100;
+    color: #545454;
+}
+
+.p2 {
+    position: absolute;
+    top: 865px;
+    left: 477px;
+    font-size: 23px;
+    font-weight: 100;
+    color: #545454;
+}
+
+
+.btn {
+    position: absolute;
+    top: 1800px;
+    left: 650px;
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    background: #1B7F69;
+    padding: 10px 20px 10px 20px;
+    border: solid #1B7F69 2px;
+    text-decoration: none;
+}
+
+.btn:hover {
+    background: #45b29a;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.img {
+    position: absolute;
+    top: 1000px;
+    left: 295px;
+}
+
+.p3 {
+    position: absolute;
+    top: 1475px;
+    font-size: 55px;
+    left: 600px;
+    font-weight: 100;
+    color: #45b29a;
+}
+
+.p4 {
+    position: absolute;
+    top: 1575px;
+    font-size: 25px;
+    left: 605px;
+    font-weight: 100;
+    color: #45b29a;
+}
+
+#p1 {
+    position: absolute;
+    top: 1650px;
+    font-size: 18px;
+    left: 500px;
+    font-weight: 100;
+    color: #45b29a;
+}
+
+#p2 {
+    position: absolute;
+    top: 1675px;
+    font-size: 18px;
+    left: 510px;
+    font-weight: 100;
+    color: #45b29a;
+}
+
+#p3 {
+    position: absolute;
+    top: 1700px;
+    font-size: 18px;
+    left: 505px;
+    font-weight: 100;
+    color: #45b29a;
+}
+
+#p4 {
+    position: absolute;
+    top: 1725px;
+    font-size: 18px;
+    left: 575px;
+    font-weight: 100;
+    color: #45b29a;
+}
+
+.btn1 {
+    position: absolute;
+    top: 2652px;
+    left: 650px;
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    background: #1B7F69;
+    padding: 10px 20px 10px 20px;
+    border: solid #1B7F69 2px;
+    text-decoration: none;
+}
+
+.btn1:hover {
+    background: #45b29a;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.img2 {
+    position: absolute;
+    top: 1900px;
+    left: 295px;
+}
+
+.p5 {
+    position: absolute;
+    top: 2350px;
+    font-size: 55px;
+    left: 550px;
+    font-weight: 100;
+    color: #45b29a;
+}
+
+.p6 {
+    position: absolute;
+    top: 2450px;
+    font-size: 25px;
+    left: 685px;
+    font-weight: 100;
+    color: #45b29a;
+}
+
+#p5 {
+    position: absolute;
+    top: 2500px;
+    font-size: 20px;
+    left: 500px;
+    font-weight: 100;
+    color: #45b29a;
+}
+
+#p6 {
+    position: absolute;
+    top: 2525px;
+    font-size: 20px;
+    left: 500px;
+    font-weight: 100;
+    color: #45b29a;
+}
+
+#p7 {
+    position: absolute;
+    top: 2550px;
+    font-size: 20px;
+    left: 700px;
+    font-weight: 100;
+    color: #45b29a;
+}
+
+.btn1 {
+    position: absolute;
+    top: 2652px;
+    left: 650px;
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    background: #1B7F69;
+    padding: 10px 20px 10px 20px;
+    border: solid #1B7F69 2px;
+    text-decoration: none;
+}
+
+.btn1:hover {
+    background: #45b29a;
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.post4 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+
+}
+
+.img3 {
+    position: absolute;
+    top: 2650px;
+}
+
+.p8 {
+    position: absolute;
+    top: 3100px;
+    font-size: 55px;
+    left: 550px;
+    font-weight: 100;
+    color: #45b29a;
+}
+
+.p9 {
+    position: absolute;
+    top: 3200px;
+    font-size: 25px;
+    left: 625px;
+    font-weight: 100;
+    color: #45b29a;
+}
+
+#p8 {
+    position: absolute;
+    top: 3250px;
+    font-size: 20px;
+    left: 425px;
+    font-weight: 100;
+    color: #45b29a;
+}
+
+#p9 {
+    position: absolute;
+    top: 3275px;
+    font-size: 20px;
+    left: 435px;
+    font-weight: 100;
+    color: #45b29a;
+}
+
+#p10 {
+    position: absolute;
+    top: 3300px;
+    font-size: 20px;
+    left: 425px;
+    font-weight: 100;
+    color: #45b29a;
+}
+
+#p11 {
+    position: absolute;
+    top: 3325px;
+    font-size: 20px;
+    left: 475px;
+    font-weight: 100;
+    color: #45b29a;
+}
+
+.btn3 {
+    position: absolute;
+    top: 3400px;
+    left: 625px;
+    -webkit-border-radius: 14;
+    -moz-border-radius: 14;
+    border-radius: 14px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    background: #1B7F69;
+    padding: 10px 20px 10px 20px;
+    border: solid #1B7F69 2px;
+    text-decoration: none;
+}
+
+.btn3:hover {
+    background: #45b29a;
+    text-decoration: none;
+    cursor: pointer;
+}
+
